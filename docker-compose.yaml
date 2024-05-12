@@ -22,9 +22,9 @@ services:
       DOCKER_ENABLE_SECURITY: "true"
       SECURITY_ENABLELOGIN: "true"
       SYSTEM_DEFAULTLOCALE: en-AU
-      UI_APPNAME: Stirling-PDF-Lite
-      UI_HOMEDESCRIPTION: Stirling-PDF-Lite Latest with Security
-      UI_APPNAMENAVBAR: Stirling-PDF-Lite Latest
+      UI_APPNAME: alameinIT | PDF Tools
+      UI_HOMEDESCRIPTION: alameinIT | PDF Tools
+      UI_APPNAMENAVBAR: alameinIT | PDF Tools
       SYSTEM_MAXFILESIZE: "100"
       METRICS_ENABLED: "true"
       SYSTEM_GOOGLEVISIBILITY: "false"
