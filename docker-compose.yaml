@@ -28,5 +28,5 @@ services:
       SYSTEM_MAXFILESIZE: "100"
       METRICS_ENABLED: "true"
       SYSTEM_GOOGLEVISIBILITY: "false"
-      csrfDisabled: "true"
+      csrfDisabled: "false"
     restart: on-failure:5
