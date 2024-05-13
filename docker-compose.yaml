@@ -30,3 +30,10 @@ services:
       SYSTEM_GOOGLEVISIBILITY: "false"
       csrfDisabled: "false"
     restart: on-failure:5
+    labels:
+      # middleware redirect  
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"  
+      # global redirect to https  
+      - "traefik.http.routers.redirs.rule=hostregexp(`{host:.+}`)"  
+      - "traefik.http.routers.redirs.entrypoints=web"  
+      - "traefik.http.routers.redirs.middlewares=redirect-to-https"  
